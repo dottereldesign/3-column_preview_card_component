@@ -1,0 +1,11 @@
+:root {
+  --clr-primary-100: hsl(31, 77%, 52%);
+  --clr-primary-200: hsl(184, 100%, 22%);
+  --clr-primary-300: hsl(179, 100%, 13%);
+
+  --clr-neutral-100: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-200: hsl(0, 0%, 95%);
+
+  --ff-primary-100: "Big Shoulders Display", cursive;
+  --ff-primary-200: "Lexend Deca", sans-serif;
+}
