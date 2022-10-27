@@ -139,7 +139,7 @@ section article:last-child {
   padding: 1.5em;
 }
 
-@media (min-width: 65em) {
+@media (min-width: 55em) {
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -150,5 +150,39 @@ section article:last-child {
 
   .card {
     min-height: 450px;
+  }
+
+  section article:first-child {
+    border-radius: 5px 0 0 0;
+  }
+
+  section article:nth-child(even) {
+    border-radius: 0 5px 5px 0px;
+  }
+
+  section article:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+@media (min-width: 80em) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1050px;
+    margin: 1em auto;
+    padding: 0 1em;
+  }
+
+  section article:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+  section article:nth-child(even) {
+    border-radius: 0;
+  }
+
+  section article:last-child {
+    border-radius: 0 5px 5px 0;
   }
 }
