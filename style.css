@@ -118,6 +118,10 @@ article .card_cta-clr-3 {
   color: var(--clr-primary-300);
 }
 
+article .card_cta:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 section article:first-child {
   background-color: var(--clr-primary-100);
   border-radius: 5px 5px 0 0;
@@ -166,12 +170,18 @@ section article:last-child {
 }
 
 @media (min-width: 80em) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1050px;
     margin: 1em auto;
     padding: 0 1em;
+    place-self: center;
   }
 
   section article:first-child {
