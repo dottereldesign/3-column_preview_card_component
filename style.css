@@ -143,7 +143,7 @@ section article:last-child {
   padding: 1.5em;
 }
 
-@media (min-width: 55em) {
+@media (min-width: 45em) {
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -169,7 +169,7 @@ section article:last-child {
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 65em) {
   body {
     display: grid;
     place-content: center;
